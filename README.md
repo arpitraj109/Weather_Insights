@@ -1,12 +1,66 @@
-# React + Vite
+# Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that displays weather information.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   React
+*   Vite
+*   Tailwind CSS
+*   Chart.js
+*   date-fns
+*   lucide-react
+*   react-chartjs-2
+*   react-datepicker
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+*   Node.js (v14 or higher)
+*   npm (v6 or higher)
+
+### Installation
+
+1.  Clone the repository.
+2.  Navigate to the project directory.
+3.  Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Development
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+This will start the Vite development server at `http://localhost:5173`.
+
+### Production Build
+
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+This will create a `dist` directory with the production build.
+
+### Preview Production Build
+
+To preview the production build, run:
+
+```bash
+npm run preview
+```
+
+This will start a local server to preview the production build.
+
+## License
+
+This project is licensed under the MIT License.
+deployment link : https://weather-insights-ruby.vercel.app/
